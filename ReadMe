@@ -1,0 +1,139 @@
+#
+Motherboard & Chipset
+
+
+##
+Motherboard
+
+
+The motherboard, is the main printed circuit board (PCB) in general-purpose computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit (CPU) and memory, and provides connectors for other peripherals.
+
+
+### Parts of the motherboard
+
+
+### CPU sockets 
+Contains one or more mechanical components providing mechanical and electrical connections between a microprocessor and a printed circuit board (PCB). This allows for placing and replacing the central processing unit (CPU) without soldering.
+![CPUSockets](https://cdn.mos.cms.futurecdn.net/yRRDibF6rbMh4fT7yXR9tW.jpg)
+
+
+### Memory slots 
+Memory slots into which the system's main memory is to be installed, typically in the form of DIMM modules containing DRAM chips. Can be DDR3, DDR4, DDR5, or onboard LPDDRx. Furthermore, some motherboards have dual memory slots which allows the installation of different memory types, such as either DDR2 or DDR
+![MemorySlots](https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2013/11/img_528005656b8e5.jpg?w=1200&h=628&fit=crop)
+
+
+### The BIOS (Basic Input/Output System) 
+BIOS is essential firmware stored on a non-volatile memory chip located directly on the motherboard.
+  - Power-On Self-Test (POST): Tests hardware components like the CPU, RAM, and storage drives to ensure they work properly before booting.
+  - Hardware Initialization: Wakes up and configures the computer's internal hardware and input devices.
+  - Boot Management: Finds the operating system on your hard drive, SSD, or USB and hands over control to it.
+  - Low-Level Configuration: Allows you to change system settings like boot order, CPU/RAM overclocking, and hardware monitoring through a setup menu.
+
+
+### UEFI (Unified Extensible Firmware Interface) 
+Most modern computers used instead of a traditional legacy BIOS. UEFI is faster, supports larger storage drives (over 2TB), and includes modern security features like Secure Boot, though people still commonly use "BIOS" as a general term for both
+
+
+![BiosAndUefi](https://imagenes.computerhoy.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/11/23/68e7cb0ec0dcf.jpeg)
+
+
+### PCIe (Peripheral Component Interconnect Express) 
+PCIe slots are located on the face of the motherboard, typically running horizontally below the CPU socket and spreading toward the bottom edge of the board.
+Types of PCIe Slots
+  . PCIe x16 Slots: These are the longest slots on the motherboard. They are located closest to the CPU and are primarily used for graphics cards (GPUs).
+  . PCIe x1 and x4 Slots: These are much shorter slots positioned lower down on the board. Most users on Reddit agree that secondary hardware like Wi-Fi cards, sound cards, capture cards, or network adapters go into these smaller slots.
+
+
+![PCIe](https://darkflash-image-cloud.s3.us-west-2.amazonaws.com/cdn/article/attach/000000000000115/202501200029747.png)
+
+
+### An M.2 port
+M.2 port is a small, flat internal connector on a motherboard used to plug in compact expansion cards most commonly high-speed solid-state drives (SSDs), Wi-Fi cards, and Bluetooth modules.
+  . Protocols & Speeds: An M.2 port can run on different underlying technologies:
+PCIe / NVMe: The modern standard for fast performance, connecting directly to the CPU or chipset to deliver high data transfer speeds.
+SATA: An older, slower type of M.2 drive that caps out at traditional SATA speeds (around 500.600 MB/s) and often disables a standard SATA port on the motherboard if used.
+
+
+![M.2Port](https://www.bgr.com/img/gallery/3-uses-for-your-pcs-m-2-slot-other-than-storage/l-intro-1775659862.jpg)
+
+
+### VRM  (Voltage Regulator Module) 
+VRM is an electrical circuit that converts the 12-volt power from your power supply into the lower, stable voltage (usually around 1.0V to 1.4V) required by your CPU.
+What the VRM Does
+
+
+  - Steps down voltage: Lowers incoming 12V power from the EPS/ATX cable to safe processor levels.
+  - Cleans and stabilizes: Smooths out electrical noise, spikes, and voltage drops to protect your processor.
+  - Handles power loads: Supplies steady currents even when the CPU ramps up its speed or handles heavy workloads.
+
+
+![VRM](https://www.allelcoelec.com/upfile/images/eb/20260319134410072.png)
+
+
+### The rear I/O (input/output) 
+The rear I/O panel is the collection of physical ports on the back of a computer motherboard, exposed through the rear of the PC case.
+
+Common Rear I/O Ports
+
+  - USB Ports: Type-A and Type-C ports for connecting keyboards, mice, external storage, and other accessories.
+  - Video Outputs: HDMI, DisplayPort, or VGA ports used to connect a monitor if your CPU features integrated graphics. (Note: If you use a dedicated graphics card, your main monitors plug into the card instead).
+  - Network / Ethernet (RJ-45): A port for a wired local area network (LAN) cable.
+  - Wi-Fi Antenna Connectors: Threaded gold or plastic connectors for wireless and Bluetooth antennas (on Wi-Fi-enabled boards).
+  - Audio Jacks & S/PDIF: 3.5mm analog color-coded jacks for speakers, microphones, and headsets, alongside digital optical audio (S/PDIF).
+  - Specialty Buttons: Buttons like Clear CMOS (to reset BIOS settings) or USB BIOS Flashback (to update firmware without a CPU) found on mid-to-high-end boards.
+  - Legacy Ports: Older connectors like PS/2 for vintage keyboards/mice or serial ports (mostly found on industrial or older boards).
+
+
+![I/OPorts](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVNH1aV_OEJwewa5pBBibkOIIiLymqfd_BuUkj8DaxXrVt8F92Yqhtw_R&s=10)
+
+
+### Form Factors
+  - ATX (305 x 244 mm): The standard full-size board. It includes 4 RAM slots and 3 to 5 PCIe slots, fitting mid-tower or full-tower cases.
+
+
+  - Micro-ATX (244 x 244 mm): A mid-sized board with up to 4 RAM slots and 2 to 3 PCIe slots. It fits in both Micro-ATX and ATX cases.
+
+
+  - Mini-ITX (170 x 170 mm): The smallest common size, featuring 2 RAM slots and 1 PCIe slot. Built for tiny, space-saving desktop cases.
+
+
+![FormFactor](https://cdn.mos.cms.futurecdn.net/4mxX7w6CUcXeQpV35xXvrL.jpg)
+
+
+## Chipset
+What is the difference between a chip and a chipset?
+A chip is a single piece of silicon that performs calculations or handles specific processing tasks. A chipset is a group of chips that manages data flow between the processor, memory and peripheral devices.
+
+
+Chipset acts as a communication hub. It manages data traffic between the CPU and peripheral devices like USB ports, SATA drives, audio, network cards, and secondary PCIe lanes. While the CPU handles memory, graphics, and primary storage directly, the chipset expands those capabilities into the broader array of ports and connections found on the motherboard
+
+
+Within a single processor platform (such as Intel or AMD), manufacturers split chipsets into distinct tiers based on features, expansion options, and cost:
+- Entry-Level / Budget Tiers (e.g., Intel H-series/H810, AMD A-series/A620)
+  - Purpose: Basic office work, media streaming, or simple single-GPU setups.
+  - Features: Limited USB ports, fewer PCIe lanes, slower or fewer high-speed storage slots, and no support for CPU overclocking
+
+
+- Mainstream / Mid-Range Tiers (e.g., Intel B-series/B860, AMD B-series/B650/B850)
+  - Purpose: Best value for standard gaming and general-purpose custom PCs.
+  - Features: Balanced connectivity, support for memory/CPU overclocking on most mid-range lines, and a healthy mix of modern PCIe and USB connections.
+
+
+- Enthusiast / High-End Tiers (e.g., Intel Z-series/Z890, AMD X-series/X870, X870E)
+  - Purpose: Extreme gaming rigs, heavy content creation, and multi-drive storage arrays.
+  - Features: Maximum PCIe 5.0 lane allocation, extensive USB/Thunderbolt/USB4 support, robust power delivery support for overclocking, and extra "E" variants that double connectivity potential
+
+
+## Examples
+
+
+- ASUS X870E ROG Crosshair Dark Hero AMD AM5 ATX Motherboard
+
+
+![ASUS](https://productimages.microcenter.com/707052_994384_01_front_comping.jpg)
+
+
+- Gigabyte B850M EAGLE WIFI7 AMD AM5 microATX Motherboard
+
+
+![Giga](https://productimages.microcenter.com/710500_033597_01_front_comping.jpg)
